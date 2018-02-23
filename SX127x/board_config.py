@@ -33,12 +33,12 @@ class BOARD:
         This is the Raspberry Pi board with one LED and a modtronix inAir9B.
     """
     # Note that the BCOM numbering for the GPIOs is used.
-    DIO0 = 22   # RaspPi GPIO 22
+    DIO0 = 4   # RaspPi GPIO 22
     DIO1 = 23   # RaspPi GPIO 23
     DIO2 = 24   # RaspPi GPIO 24
-    DIO3 = 25   # RaspPi GPIO 25
+    DIO3 = 5   # RaspPi GPIO 25
     LED  = 18   # RaspPi GPIO 18 connects to the LED on the proto shield
-    SWITCH = 4  # RaspPi GPIO 4 connects to a switch
+    SWITCH = 21  # RaspPi GPIO 4 connects to a switch
 
     # The spi object is kept here
     spi = None
